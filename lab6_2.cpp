@@ -1,4 +1,4 @@
-#include <iostream>
+#include<iostream>
 #include<cmath>
 
 using namespace std;
@@ -19,9 +19,9 @@ double pythagoras(double a,double b){
 }
 
  void showResult(double length, double angle){
-    cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
+    cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" <<"\n";
     cout << "Length of the resultant vector = " << length << endl;
-    cout << "Direction of the resultant vector (deg) = "<< angle << endl;
+    cout << "Direction of the resultant vector (deg) = "<< angle << "\n";
     cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"; 
 
  }
